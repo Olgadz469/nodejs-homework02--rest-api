@@ -1,13 +1,3 @@
-// mongodb+srv://olga:XFrF-w7kHRkQ8wF@cluster0.7927njq.mongodb.net/db-contacts
-// const mongoose = require("mongoose");
-// const DB_HOST =
-//   "mongodb+srv://olga:XFrF-w7kHRkQ8wF@cluster0.7927njq.mongodb.net/db-contacts";
-// mongoose.set("strictQuery", true);
-// mongoose
-//   .connect(DB_HOST)
-//   .then(() => console.log("Database connect sucsess"))
-//   .catch((error) => console.log(error.message));
-
 const express = require("express");
 const logger = require("morgan");
 const cors = require("cors");
