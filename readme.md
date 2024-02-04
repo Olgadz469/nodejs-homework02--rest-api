@@ -1,5 +1,10 @@
 ## GoIT Node.js Course Template Homework
 
+.env
+DB_HOST=mongodb+srv://olga:XFrF-w7kHRkQ8wF@cluster0.7927njq.mongodb.net/db-contacts?retryWrites=true&w=majority
+PORT=3000
+SECRET_KEY=3Qan$XE3;=$CtPT
+
 Виконайте форк цього репозиторію для виконання домашніх завдань (2-6)
 Форк створить репозиторій на вашому http://github.com
 
