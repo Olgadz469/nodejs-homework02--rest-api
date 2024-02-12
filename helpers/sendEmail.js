@@ -22,15 +22,3 @@ const sendEmail = async (data) => {
 };
 
 module.exports = sendEmail;
-
-// const email = {
-//   to: "olgadz469@gmail.com",
-//   from: "story469@ukr.net",
-//   subject: "Test email",
-//   html: "<p><strong>Test email</strong>from localhost:3000</p>",
-// };
-
-// transport
-//   .sendMail(email)
-//   .then(() => console.log("Email send success"))
-//   .catch((error) => console.log(error.message));

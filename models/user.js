@@ -33,7 +33,7 @@ const userSchema = new Schema(
     },
     verificationCode: {
       type: String,
-      default: "",
+      required: [true, "Verify token is required"],
     },
   },
   { versionKey: false, timestamps: true }
